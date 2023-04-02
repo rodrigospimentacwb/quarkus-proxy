@@ -3,7 +3,7 @@ name: CI build in Develop
 on: [push]
 
 jobs:
-  build-and-test:
+  build:
     name: Run build and test and generate PR
     runs-on: ubuntu-latest
     steps:
