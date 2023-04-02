@@ -2,12 +2,12 @@ name: CI build in Develop
 on:
   push:
     branches:
-      - '!develop'
-      - '!main'
+      - '*'
+      - '*'
   pull_request:
     branches:
-      - '!develop'
-      - '!main'
+      - '*'
+      - '*'
 jobs:
   build:
     runs-on: ubuntu-latest
